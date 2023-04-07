@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+
+    <!-- You can insert your own image assets here -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap-hdpi/ram_appicon.png" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap-mdpi/ram_appicon.png" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap-xhdpi/ram_appicon.png" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap-xxhdpi/ram_appicon.png" />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap-xxxhdpi/ram_appicon.png" />
+    </item>
+</layer-list>
